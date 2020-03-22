@@ -11,16 +11,46 @@
 
 .scrolling-wrapper .card {
     display: inline-block;
-    width: 200px;
-    height: 200px;
+}
+
+@media (max-width: 374px) {
+    .scrolling-wrapper .card {
+        width: 264px;
+    }
 }
 
 
+@media (min-width: 375px) {
+    .scrolling-wrapper .card {
+        width: 310px;
+    }
+}
+
+@media (min-width: 768px) {
+    .scrolling-wrapper .card {
+        width: 300px;
+    }
+}
+
+@media (min-width: 992px) {
+    .scrolling-wrapper .card {
+        width: 350px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .scrolling-wrapper .card {
+        width: 320px;
+    }
+}
+
+.overlay-card.card-body {
+    white-space: normal;
+}
 
 .scrolling-wrapper::-webkit-scrollbar {
     display: none;
 }
-
 
 .scrolling-wrapper .card-img-overlay {
     background-color: rgba(0, 0, 0, .6);
@@ -35,10 +65,8 @@
     transition: opacity .4s;
 }
 
-
 .scrolling-wrapper .card {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 15px;
 }
 
 .scrolling-wrapper .card:first-child {
@@ -47,4 +75,21 @@
 
 .scrolling-wrapper .card:last-child {
     margin-right: 0;
+}
+
+@media (max-width: 575px) {
+
+    .slider-wrapper {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .scrolling-wrapper .card:first-child {
+        margin-left: 15px;
+    }
+
+    .scrolling-wrapper .card:last-child {
+        margin-right: 15px;
+    }
+
 }

@@ -1,4 +1,4 @@
-=== Post App Slider ===
+=== Post List ===
 
 Contributors: craftwerk
 
