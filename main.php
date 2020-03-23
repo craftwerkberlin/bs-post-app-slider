@@ -67,7 +67,7 @@ function bootscore_post_app_slider( $atts ) {
                     <p><?php the_excerpt(); ?></p>
 
                     <div class="readmore">
-                        <a class="btn btn-outline-light" href="<?php the_permalink(); ?>"><?php _e('Read more', 'isopost'); ?> »</a>
+                        <a class="btn btn-outline-light" href="<?php the_permalink(); ?>"><?php _e('Read more', 'bootscore'); ?> »</a>
                     </div>
                 </div>
             </div>
