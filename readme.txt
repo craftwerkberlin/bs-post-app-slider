@@ -1,4 +1,4 @@
-=== Post App Slider ===
+=== bS Post App Slider ===
 
 Contributors: craftwerk
 

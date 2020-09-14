@@ -1,5 +1,5 @@
 <?php
-/*Plugin Name: Post App Slider for bootScore
+/*Plugin Name: bS Post App Slider
 Plugin URI: https://bootscore.me/plugins/post-app-slider/
 Description: Post App Slider for bootScore theme https://bootscore.me. Use Shortcode like this [post-app-slider type="post" category="sample-category" order="ASC" orderby="title" posts="12"] and read readme.txt in PlugIn folder for options.
 Version: 1.0.0
@@ -14,8 +14,8 @@ License: GPLv2
 // Register Styles and Scripts
 function app_slider_scripts() {
     
-    wp_register_style( 'style', plugins_url('css/style.css', __FILE__) );
-        wp_enqueue_style( 'style' );
+    wp_register_style( 'app-style', plugins_url('css/app-style.css', __FILE__) );
+        wp_enqueue_style( 'app-style' );
     }
 
 add_action('wp_enqueue_scripts','app_slider_scripts');
