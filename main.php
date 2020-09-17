@@ -1,8 +1,8 @@
 <?php
 /*Plugin Name: bS Post App Slider
-Plugin URI: https://bootscore.me/plugins/post-app-slider/
-Description: Post App Slider for bootScore theme https://bootscore.me. Use Shortcode like this [post-app-slider type="post" category="sample-category" order="ASC" orderby="title" posts="12"] and read readme.txt in PlugIn folder for options.
-Version: 1.0.0
+Plugin URI: https://bootscore.me/plugins/bs-post-app-slider/
+Description: Post App Slider for bootScore theme https://bootscore.me. Use Shortcode like this [bs-post-app-slider type="post" category="sample-category" order="ASC" orderby="title" posts="12"] and read readme.txt in PlugIn folder for options.
+Version: 1.0.1
 Author: Bastian Kreiter
 Author URI: https://crftwrk.de
 License: GPLv2
@@ -25,7 +25,7 @@ add_action('wp_enqueue_scripts','app_slider_scripts');
 
 
 // Post App Slider Shortcode
-add_shortcode( 'post-app-slider', 'bootscore_post_app_slider' );
+add_shortcode( 'bs-post-app-slider', 'bootscore_post_app_slider' );
 function bootscore_post_app_slider( $atts ) {
 	ob_start();
 	extract( shortcode_atts( array (

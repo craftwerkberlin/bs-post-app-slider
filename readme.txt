@@ -3,9 +3,9 @@
 Contributors: craftwerk
 
 Requires at least: 4.5
-Tested up to: 5.3.2
+Tested up to: 5.6
 Requires PHP: 5.6
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,7 +21,7 @@ Post App Slider for bootScore WordPress Theme, Copyright 2020 Bastian Kreiter.
 
 Use a shortcode like this to display your Posts in a Page:
 
-[post-list type="post" category="sample-category" order="ASC" orderby="title" posts="12"]
+[bs-post-app-slider type="post" category="sample-category" order="ASC" orderby="title" posts="12"]
 
 Options:
 
@@ -32,6 +32,10 @@ posts: number of posts to display
 
 
 == Changelog ==
+
+    = 1.0.1 - September 17 2020 =
+    
+        * Renamed plugin and shortcode
 
     = 1.0.0 - March 22 2020 =
     
